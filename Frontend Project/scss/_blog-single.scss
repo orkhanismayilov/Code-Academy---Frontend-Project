@@ -7,6 +7,9 @@ h5 {
     padding-right: 95px;
     .post-img {
         margin-bottom: 25px;
+        img{
+            max-width: 100%;
+        }
     }
     .post-title {
         padding-bottom: 5px;

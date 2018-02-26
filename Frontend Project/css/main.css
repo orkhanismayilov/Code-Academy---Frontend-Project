@@ -342,6 +342,8 @@ section {
     color: #737373; }
   #about img.signature {
     float: right; }
+  #about img {
+    max-width: 100%; }
 
 #choose {
   padding: 100px 0;
@@ -1388,12 +1390,12 @@ footer {
     #service_content .text-box:hover i {
       transform: rotateY(-180deg); }
 
-#awesome .section_title {
+#awesome.for-services .section_title {
   width: 100%; }
-#awesome h3 {
+#awesome.for-services h3 {
   display: inline-block;
   margin-bottom: 0; }
-#awesome button {
+#awesome.for-services button {
   margin-top: 10px; }
 
 #pricing {
@@ -1866,6 +1868,8 @@ h5 {
   padding-right: 95px; }
   .article .post-img {
     margin-bottom: 25px; }
+    .article .post-img img {
+      max-width: 100%; }
   .article .post-title {
     padding-bottom: 5px;
     border-bottom: 1px solid #f2f2f2;

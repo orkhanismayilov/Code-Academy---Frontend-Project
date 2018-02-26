@@ -28,8 +28,9 @@ $(document).ready(function () {
     if ($(".home").length) {
 
         // Count To
-        if ($(".number-counter").length > 0) {
+        if ($(".number-counter").length) {
             $('.number-counter').countTo();
+
         }
 
         // Owl Carousels
@@ -37,7 +38,6 @@ $(document).ready(function () {
         if ($("#main-intro").length > 0) {
             $("#main-intro").owlCarousel({
                 items: 1,
-                loop: true,
                 autoplay: true,
                 autoplayTimeout: 7000,
                 smartSpeed: 800,
@@ -46,7 +46,7 @@ $(document).ready(function () {
                 center: true
             });
 
-            $("#main-intro .car-item").height($(window).height());
+            $("#main-intro .car-item, #main-intro .car-item img").height($(window).height());
 
             $("#main-intro embed").css({
                 width: $(".car-item").width(),
